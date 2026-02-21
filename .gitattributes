@@ -5,6 +5,14 @@
 *.go linguist-detectable=true
 *.md linguist-detectable=true
 *.markdown linguist-detectable=true
+*.py linguist-detectable=true
+*.c linguist-detectable=true
+*.cpp linguist-detectable=true
+*.h linguist-detectable=true
+*.cs linguist-detectable=true
+*.rs linguist-detectable=true
+*.kt linguist-detectable=true
+*.swift linguist-detectable=true
 
 # 隐藏所有前端相关
 *.js linguist-detectable=false
@@ -32,18 +40,8 @@
 # 隐藏脚本语言
 *.sh linguist-detectable=false
 *.bash linguist-detectable=false
-*.py linguist-detectable=false
 *.rb linguist-detectable=false
 *.php linguist-detectable=false
-
-# 隐藏其他常见语言
-*.c linguist-detectable=false
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
-*.cs linguist-detectable=false
-*.rs linguist-detectable=false
-*.kt linguist-detectable=false
-*.swift linguist-detectable=false
 
 # 标记构建产物和依赖为第三方代码（不统计）
 dist/* linguist-vendored
